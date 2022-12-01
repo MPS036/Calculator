@@ -4,6 +4,7 @@ from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtGui import QFontDatabase
 from Calculator.ui.design import Ui_MainWindow
 from operator import add, sub, mul, truediv
+import ui.files_rc
 
 operations = {
     '+': add,

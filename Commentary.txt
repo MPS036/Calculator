@@ -1,0 +1,10 @@
+This is one of my very first projects that I did during self-study.
+
+The calculator performs basic functions, but I found one bug. I couldn't fix it and left it.
+Yes, this is not the right approach, but I wanted to move on to the following projects,
+which are also presented in this repository.
+
+The bug is that after receiving the response, the user can continue writing in QLineEdit.
+For a better understanding, I will give an example:
+6*8=48 and after pressing any number (for example 9) the LineEdit window would be transformed into 489.
+
